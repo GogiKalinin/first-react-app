@@ -1,9 +1,19 @@
 import './About.sass';
+import Method from '../Method/Method';
+import AboutBlock from '../AboutBlock/AboutBlock';
+import AboutPicturesBlock from '../AboutPicturesBlock/AboutPicturesBlock';
 
 const About = () => {
     return (
-        <div className='About'>
-            <h2>About</h2>
+        <div
+            id='about'
+            className='About'
+        >
+            <div className="about_container">
+                <AboutBlock />
+                <AboutPicturesBlock />
+            </div>
+            <Method />
         </div>
     )
 };

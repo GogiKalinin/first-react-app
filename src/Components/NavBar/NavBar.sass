@@ -1,0 +1,52 @@
+.NavBar,
+.navbar_title_container,
+.navbar_title,
+.navbar_items_container,
+.navbar_items,
+.nav_item
+    display: flex
+    align-items: center
+    justify-content: center
+
+.NavBar
+    height: 100px
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    width: 100%
+    background-color: #5474FD;
+
+.navbar_title_container, .navbar_items_container
+    height: 100%
+    width: 50%
+
+.navbar_items_container
+    justify-content: flex-start
+
+.navbar_title
+    font-family: Josefin Sans
+    font-style: normal
+    font-weight: bold
+    font-size: 27px
+    line-height: 26px
+    letter-spacing: 2.4px
+    text-transform: uppercase
+    color: #FFFFFF
+.navbar_items
+    margin-left: 30px
+.nav_item
+    height: 50px
+    width: 110px
+    margin: 0 15px
+    font-family: Aleo
+    font-style: normal
+    font-weight: normal
+    font-size: 15px
+    line-height: 26px
+    color: #FFFFFF
+    cursor: pointer
+    transition: .3s
+    &:hover
+        font-size: 16px
+        color: #c8c8c8

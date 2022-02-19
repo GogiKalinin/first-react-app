@@ -1,9 +1,14 @@
 import './FeedbackScreen.sass';
+import FeedbackBlock from '../FeedbackBlock/FeedbackBlock';
 
 const FeedbackScreen = () => {
     return (
         <div className='FeedbackScreen'>
-            <h2>FeedbackScreen</h2>
+            <div className="feedback_title">
+                What Our  Tourist Say
+            </div>
+            <FeedbackBlock />
+            <div />
         </div>
     )
 };
