@@ -73,29 +73,17 @@ const pinterest_icon = (
 
 const Footer = () => {
   return (
-    <div className="Footer">
-      <div className="footer_title">
+    <div id="footer" className="Footer">
+      <a href="#top" className="footer_title">
         Bhromaon
-      </div>
-      <div className="footer_subtitle">
-        Safe Travel Anywhere
-      </div>
+      </a>
+      <div className="footer_subtitle">Safe Travel Anywhere</div>
       <div className="footer_social">
-        <div className="social_icon">
-            {facebook_icon}
-        </div>
-        <div className="social_icon">
-            {twitter_icon}
-        </div>
-        <div className="social_icon">
-            {linkedin_icon}
-        </div>
-        <div className="social_icon">
-            {youtube_icon}
-        </div>
-        <div className="social_icon">
-            {pinterest_icon}
-        </div>
+        <div className="social_icon">{facebook_icon}</div>
+        <div className="social_icon">{twitter_icon}</div>
+        <div className="social_icon">{linkedin_icon}</div>
+        <div className="social_icon">{youtube_icon}</div>
+        <div className="social_icon">{pinterest_icon}</div>
       </div>
     </div>
   );
