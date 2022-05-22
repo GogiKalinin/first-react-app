@@ -14,7 +14,7 @@ const App = () => {
     button_text: "Book Now",
     country: "Spain",
     title: "Grand Spain Madrid",
-    text: "But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system",
+    text: "But I must explain to you how all this mistaken gfdsfsdfdsfsdf idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system",
   };
 
   const secondBookScreen = {
